@@ -16,3 +16,6 @@ helpers do
     session['user_id'] = nil
   end
 end
+
+
+# session[:user_id] != nil

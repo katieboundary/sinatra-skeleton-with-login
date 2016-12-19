@@ -1,3 +1,4 @@
+#helpers are available in model, controller, and views
 helpers do
 
   def current_user
@@ -19,3 +20,5 @@ end
 
 
 # session[:user_id] != nil
+
+# session[:user_id]

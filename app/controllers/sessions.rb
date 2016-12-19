@@ -1,8 +1,8 @@
+#No session model or table are needed. It is not an active record object, but we still treat the controller as such
 
 get '/sessions/new' do
   erb :'sessions/new'
 end
-
 
 post '/sessions' do
   @user = User.authenticate(params)
